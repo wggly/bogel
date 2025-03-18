@@ -11,7 +11,7 @@ DOMAIN=bogelstore.me
 SUB_DOMAIN=${sub}.bogelstore.me
 CF_ID=bogelxdvpn@gmail.com
 CF_KEY=9536e1c5d1d8900dc62c924ac50c600845fa9
-
+echo "Subdomain yang dibuat: $SUB_DOMAIN"
 set -euo pipefail
 
 IP=$(curl -sS ipv4.icanhazip.com)
