@@ -9,8 +9,8 @@ echo ""
 echo ""
 echo ""
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-DOMAIN=mypremium.my.id
-SUB_DOMAIN=${sub}.mypremium.my.id
+DOMAIN=bogelstore.me
+SUB_DOMAIN=${sub}.bogelstore.me
 CF_ID=bogelxdvpn@gmail.com
 CF_KEY=9536e1c5d1d8900dc62c924ac50c600845fa9
 set -euo pipefail
